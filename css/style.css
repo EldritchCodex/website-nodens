@@ -1,0 +1,164 @@
+/* =========================================
+   Global Styles & Variables
+   ========================================= */
+
+   :root {
+    --content-max-width: 800px; /* Main content width */
+  }
+
+  body {
+    font-family: system-ui;
+    background-color: #ffffff;
+    color: #202020;
+    max-width: var(--content-max-width);
+    margin: 0 auto; /* Center the content */
+    padding: 1rem;
+    line-height: 1.6;
+  }
+
+
+  /* =========================================
+      Header & Title
+      ========================================= */
+
+  header {
+    text-align: center;
+    padding: .5rem 0 .5rem 0; /* Restore original padding */
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1000;
+    border-bottom: 1px solid #000;
+  }
+
+  header a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .social-links {
+    text-align: center;
+    letter-spacing: .05rem;
+    text-transform: uppercase;
+  }
+
+  .social-links a {
+    font-size: .7rem;
+    font-weight: 400;
+    margin: 0 0.5rem;
+    color: #777;
+  }
+
+  .social-links a:hover {
+    color: #000;
+  }
+
+  .title {
+    font-family: "Fraunces";
+    font-optical-sizing: auto;
+    font-size: 2.1rem;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: .5rem;
+  }
+
+  .subtitle {
+    font-family: 'Fraunces';
+    font-size: 1rem;
+    font-weight: 400;
+    color: #777;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  /* =========================================
+      Main Content Sections & Headings
+      ========================================= */
+
+  h1, h3 {
+      font-family: "Fraunces";
+      margin-bottom: 0.5rem;
+      font-weight: 400;
+  }
+
+  h2 {
+    font-family: "Fraunces";
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  section {
+    margin-top: 2rem;
+    color: #111111;
+    text-align: justify;
+  }
+
+  /* =========================================
+      Resume Item Styling
+      ========================================= */
+
+  .item {
+    margin-bottom: 1.8rem;
+  }
+
+  .item::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .item-title {
+    font-family: serif;
+    font-size: 1.2rem;
+  }
+
+  .institution-name {
+    margin-bottom: 0.3rem;
+  }
+
+  .item-content {
+      color: #777;
+  }
+
+  .date {
+    font-family: serif;
+    font-size: 1rem;
+    float: right;
+    color:  #777;
+  }
+
+  /* =========================================
+      General Text Elements (Paragraphs, Lists)
+      ========================================= */
+
+  ul {
+      list-style-position: outside;
+      padding-left: 1.5em;
+  }
+
+  li {
+      margin-bottom: 0.5em;
+  }
+
+  /* =========================================
+      Footer
+      ========================================= */
+
+  footer {
+    border-top: 1px solid #ccc;
+    text-align: Left;
+    margin-top: 3rem;
+    padding: 1rem 0;
+    font-size: 0.85rem;
+    color: #777;
+  }
+
+  .footer-left {
+    float: left;
+  }
+
+  .footer-right {
+    float: right;
+  }
